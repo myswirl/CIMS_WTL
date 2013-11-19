@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c5f62cdf-67d1-44c8-9ea2-01770475f0d9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b5008b1f-b479-462e-8035-756fded28d32}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b6b93044-aa96-4217-9d28-dbbd49409d35}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="import">
+      <UniqueIdentifier>{0812db29-957e-4186-8fdc-03e4742d6172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\bkwin">
+      <UniqueIdentifier>{7dcd5634-b53e-4c99-94d7-2508cc8fae5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\tinyxml">
+      <UniqueIdentifier>{2301e80f-ed35-408c-8dce-5ca8e718f059}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CIMS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\KUI\tinyxml\tinyxml.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\KUI\tinyxml\tinyxmlerror.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\KUI\tinyxml\tinyxmlparser.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\KUI\tinyxml\tinystr.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\tinyxml\tinystr.h">
+      <Filter>import\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\tinyxml\tinyxml.h">
+      <Filter>import\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkatldefine.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkcolor.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkdlgview.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkimage.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bklistbox.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bklistview.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkobject.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkskin.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bktheme.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkwnd.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkwndcmnctrl.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkwnddlg.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkwnddlgfile.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkwndnotify.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkwndpanel.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkwndrichtxt.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkwndstyle.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\bkwndtabctrl.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KUI\bkwin\listboxbase.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="bkwinres.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CIMS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\KUI\bkres\bkres.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CIMS.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bkwinres.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

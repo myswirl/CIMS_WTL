@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8D704C67-17DA-47EE-B8FB-A8CD4B19F9C3}") = "CIMS", "CIMS\CIMS.vcxproj", "{8D704C67-17DA-47EE-B8FB-A8CD4B19F9C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D704C67-17DA-47EE-B8FB-A8CD4B19F9C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D704C67-17DA-47EE-B8FB-A8CD4B19F9C3}.Debug|Win32.Build.0 = Debug|Win32
+		{8D704C67-17DA-47EE-B8FB-A8CD4B19F9C3}.Release|Win32.ActiveCfg = Release|Win32
+		{8D704C67-17DA-47EE-B8FB-A8CD4B19F9C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
